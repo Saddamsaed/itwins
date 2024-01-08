@@ -22,6 +22,9 @@ flower = "*"
 pytest = "*"
 pytest-django = "*"
 autopep8 = "*"
+pytest-watch = "*"
+model-bakery = "*"
+locust = "*"
 
 [requires]
 python_version = "3.9"
