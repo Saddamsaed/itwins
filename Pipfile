@@ -25,6 +25,8 @@ autopep8 = "*"
 pytest-watch = "*"
 model-bakery = "*"
 locust = "*"
+django-silk = "*"
+django-redis = "*"
 
 [requires]
 python_version = "3.9"
