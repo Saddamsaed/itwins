@@ -8,6 +8,7 @@ admin.site.site_header = 'Itwins Store'
 admin.site.index_title = 'Management'
 
 urlpatterns = [
+    path('', include('core.urls')),
     path('admin/', admin.site.urls),
     path('playground/', include('playground.urls')),
     path('api/v1/store/', include('store.urls')),
